@@ -1,0 +1,2 @@
+# QLSAG
+QLSAG是利用QNetworkAccessManager实现多线程Ftp上传/下载、利用FFTW库进行频谱分析
