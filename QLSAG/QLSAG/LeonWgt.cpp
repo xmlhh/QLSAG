@@ -31,6 +31,15 @@ void QLSAG::InitUI()
 	SiganlConnect();
 
 	InitData();
+
+	if (NULL == m_pfftw)
+	{
+		m_pfftw = new FFTW;
+	}
+	QHBoxLayout *hLayout = new QHBoxLayout(ui.m_pFFTWgt);
+	hLayout->setContentsMargins(0, 0, 0, 0);
+	hLayout->addWidget(m_pfftw);
+	ui.m_pFFTWgt->setLayout(hLayout);
 }
 
 void QLSAG::SiganlConnect()
@@ -316,16 +325,9 @@ void QLSAG::OnParseDownLoadFile(const QString& strIp, const QString& strFileName
 
 void QLSAG::OnFFTWBtn()
 {
-	if (NULL == m_pfftw)
-	{
-		m_pfftw = new FFTW;
-	}
+	
 	m_pfftw->InitData();
 
-	QHBoxLayout *hLayout = new QHBoxLayout(ui.m_pFFTWgt);
-	hLayout->setContentsMargins(0, 0, 0, 0);
-	hLayout->addWidget(m_pfftw);
-	ui.m_pFFTWgt->setLayout(hLayout);
 }
 
 

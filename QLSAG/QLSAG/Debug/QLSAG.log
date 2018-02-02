@@ -1,20 +1,27 @@
-﻿生成启动时间为 2018/1/29 11:22:44。
-     1>项目“D:\Qt_code\Qt5.5+VS2013\QLSAG\QLSAG\QLSAG.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2018/2/2 16:21:53。
+     1>项目“D:\Qt_code\QLSAG\QLSAG\QLSAG\QLSAG.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Uic'ing FFTW.ui...
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_FFTW.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_FFTW.cpp, GeneratedFiles\Release\moc_FFTW.cpp.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_LeonWgt.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LeonWgt.cpp, GeneratedFiles\Release\moc_LeonWgt.cpp.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtCore /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtGui /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtNetwork /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtWidgets /ID:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\\..\FtpManager\FtpManager /ID:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\\..\FFTW\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LeonWgt.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtCore /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtGui /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtNetwork /IC:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\include\QtWidgets /ID:\Qt_code\QLSAG\QLSAG\FtpManager\\..\FtpManager\FtpManager /ID:\Qt_code\QLSAG\QLSAG\FtpManager\\..\FFTW\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FFTW.cpp GeneratedFiles\Debug\moc_FFTW.cpp GeneratedFiles\Debug\moc_LeonWgt.cpp LeonWgt.cpp main.cpp
+         FFTW.cpp
+         moc_FFTW.cpp
+         moc_LeonWgt.cpp
          LeonWgt.cpp
+         main.cpp
+         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\Win32\Debug\\QLSAG.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\lib /LIBPATH:D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\\..\FtpManager\Win32\Debug /LIBPATH:D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\\..\FFTW\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Widgetsd.lib FtpManager.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\Win32\Debug\QLSAG.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\Win32\Debug\QLSAG.lib" /MACHINE:X86 /SAFESEH Debug\FFTW.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Qt_code\QLSAG\QLSAG\FtpManager\Win32\Debug\\QLSAG.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.0_mscv2013\5.7\msvc2013\lib /LIBPATH:D:\Qt_code\QLSAG\QLSAG\FtpManager\\..\FtpManager\Win32\Debug /LIBPATH:D:\Qt_code\QLSAG\QLSAG\FtpManager\\..\FFTW\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Widgetsd.lib FtpManager.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Qt_code\QLSAG\QLSAG\FtpManager\Win32\Debug\QLSAG.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Qt_code\QLSAG\QLSAG\FtpManager\Win32\Debug\QLSAG.lib" /MACHINE:X86 /SAFESEH Debug\FFTW.obj
          Debug\moc_FFTW.obj
          Debug\moc_LeonWgt.obj
          Debug\qrc_LeonWgt.obj
          Debug\LeonWgt.obj
          Debug\main.obj
-         QLSAG.vcxproj -> D:\Qt_code\Qt5.5+VS2013\QLSAG\FtpManager\Win32\Debug\QLSAG.exe
-     1>已完成生成项目“D:\Qt_code\Qt5.5+VS2013\QLSAG\QLSAG\QLSAG.vcxproj”(Build 个目标)的操作。
+         QLSAG.vcxproj -> D:\Qt_code\QLSAG\QLSAG\FtpManager\Win32\Debug\QLSAG.exe
+     1>已完成生成项目“D:\Qt_code\QLSAG\QLSAG\QLSAG\QLSAG.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.60
+已用时间 00:00:08.46
